@@ -23,6 +23,7 @@ module.exports.updateEvent = updateEvent;
 const deleteEvent = async function(req, res) {
     res.send("Event deleted");
 }
+
 module.exports.deleteEvent = deleteEvent;
 
 
